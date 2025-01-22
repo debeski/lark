@@ -62,6 +62,14 @@ namespace task.Tests
         [Fact]
         public void Login_AlwaysFails()
         {
+            // Arrange
+            string username = "";
+            string password = "";
+
+            // Act
+            bool result = Program.Login(username, password);
+
+            // Assert
             Assert.False(true);
         }
     }
