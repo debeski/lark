@@ -59,18 +59,5 @@ namespace task.Tests
             // Assert
             Assert.False(result);
         }
-        [Fact]
-        public void Login_AlwaysFailsTest()
-        {
-            // Arrange
-            string username = "";
-            string password = "";
-
-            // Act
-            bool result = Program.Login(username, password);
-
-            // Assert
-            Assert.False(true); // This should deliberately fail
-        }
     }
 }
