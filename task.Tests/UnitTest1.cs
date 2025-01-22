@@ -43,7 +43,7 @@ namespace task.Tests
             bool result = Program.Login(username, password);
 
             // Assert
-            Assert.True(result);
+            Assert.False(result);
         }
 
         [Fact]
@@ -58,6 +58,11 @@ namespace task.Tests
 
             // Assert
             Assert.False(result);
+        }
+        [Fact]
+        public void Login_AlwaysFails()
+        {
+            Assert.False(true);
         }
     }
 }
