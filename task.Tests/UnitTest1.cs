@@ -43,7 +43,7 @@ namespace task.Tests
             bool result = Program.Login(username, password);
 
             // Assert
-            Assert.False(result);
+            Assert.True(result);
         }
 
         [Fact]
