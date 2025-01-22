@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace theAdvancedApp.Tests
+namespace task.Tests
 {
     public class LoginTests
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace theAdvancedApp
+namespace task
 {
     public class Program
     {
